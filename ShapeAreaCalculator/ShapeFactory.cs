@@ -1,5 +1,7 @@
 ﻿using ShapeAreaCalculation.Shapes;
 
+using ShapeAreaCalculation.Utility;
+
 namespace ShapeAreaCalculation
 {
 	internal class ShapeFactory
@@ -37,7 +39,9 @@ namespace ShapeAreaCalculation
 				cathetusB = sides[1];
 				hypotenuse = sides[2];
 
-				return Math.Pow(cathetusA, 2) == Math.Pow(cathetusB, 2) + Math.Pow(hypotenuse, 2);
+				return DoubleComparer.IsEqual(Math.Pow(hypotenuse, 2), Math.Pow(cathetusA, 2) + Math.Pow(cathetusB, 2));
+				// Проводя тесты я вспомнил о таком явлении как floating point problem
+				// поэтому обычное сравнение было заменено на сравнение модуля разницы с заранее заданным числом определяющим точность сравнения.
 			}
 		}
 	}
