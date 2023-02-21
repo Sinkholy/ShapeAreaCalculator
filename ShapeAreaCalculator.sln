@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeAreaCalculator", "ShapeAreaCalculator\ShapeAreaCalculator.csproj", "{A13CE9FC-EAEF-4C18-8FF2-050F8FFA502B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeAreaCalculator_tests", "ShapeAreaCalculator_tests\ShapeAreaCalculator_tests.csproj", "{DC91945A-2C30-4954-993C-0D4637C2A4CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A13CE9FC-EAEF-4C18-8FF2-050F8FFA502B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13CE9FC-EAEF-4C18-8FF2-050F8FFA502B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13CE9FC-EAEF-4C18-8FF2-050F8FFA502B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13CE9FC-EAEF-4C18-8FF2-050F8FFA502B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC91945A-2C30-4954-993C-0D4637C2A4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC91945A-2C30-4954-993C-0D4637C2A4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC91945A-2C30-4954-993C-0D4637C2A4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC91945A-2C30-4954-993C-0D4637C2A4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860ECDBE-A753-4572-9D8A-9A46C5545015}
+	EndGlobalSection
+EndGlobal
